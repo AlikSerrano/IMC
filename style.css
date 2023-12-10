@@ -113,8 +113,15 @@ label{
   }
 
   img {
-    width: 80%; /* Make the image fill the container */
-    padding: 10px;
+    width: 85%; /* Make the image fill the container */
+    margin-top:0;
+    border: solid;
+    border-radius:50px;
+    border-width:thick;
+    border-image-width:auto;
+    border-color:darkorange;
+    
+    
   }
 
   .input input {
