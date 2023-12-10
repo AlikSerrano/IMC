@@ -102,6 +102,36 @@ label{
 
 }
 
+@media screen and (max-width: 768px) {
+  /* Tablet Styles */
+  .container {
+    background-size: cover; /* Adjust to your needs */
+  }
+
+  #button {
+    width: 80%; /* Adjust the width as needed */
+  }
+
+  img {
+    width: 100%; /* Make the image fill the container */
+  }
+
+  .input input {
+    width: 100%; /* Make the input fields fill the container */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Mobile Styles */
+  .container {
+    background-size: contain; /* Adjust to your needs */
+  }
+
+  #button {
+    width: 100%; /* Make the button fill the container */
+  }
+} 
+
 
 
 
