@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding:0;
+  
+
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:aquamarine;
+
+}
+
+h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:sans-serif;
+  font-weight: lighter;
+  font-size: smaller;
+  background-image: url('https://img.freepik.com/vetores-gratis/limpar-historico-medico_53876-97927.jpg?w=996&t=st=1702180605~exp=1702181205~hmac=10bd72e7c18451c9667593ed62c067c446251d9dcd10ce9703eb586e5d9622e1');
+
+ 
+}
+
+#fill{
+  margin-top: 20px;
+  border: solid;
+  border-radius: 10px;
+  border-color: darkcyan;
+  border-radius: 30px;
+  
+
+}
+
+#button{
+
+  color: mediumturquoise;
+  background-color: black;
+  height: 80px;
+  width: 300px;
+  border: solid;
+  border-color: cyan;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+}
+
+img {
+  width: 600px;
+  padding:10px;
+  
+
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+
+.input {
+  text-align: center; /* Center the text within the .input div */
+}
+
+.input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input input {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the input horizontally */
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#resultado{
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 10px;
+  color: cyan;
+  background-color:black;
+  border: dotted;
+  border-radius: 15px;
+  width: fit-content;
+  margin: 0 auto;
+
+}
+
+
+
+
+  
+
+
+
+
+
