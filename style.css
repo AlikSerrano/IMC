@@ -114,6 +114,7 @@ label{
 
   img {
     width: 80%; /* Make the image fill the container */
+    padding: 10px;
   }
 
   .input input {
